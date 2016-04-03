@@ -1,0 +1,28 @@
+{
+  "name": "gh-fork",
+  "version": "1.0.0",
+  "description": "Forks the specified repositories in a known account.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fork",
+    "github",
+    "repository"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "dependencies": {
+    "gh-repeat": "^1.0.1",
+    "same-time": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/gh-fork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/gh-fork/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/gh-fork#readme"
+}
