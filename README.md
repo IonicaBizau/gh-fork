@@ -1,17 +1,18 @@
+
 # gh-fork [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/gh-fork.svg)](https://www.npmjs.com/package/gh-fork) [![Downloads](https://img.shields.io/npm/dt/gh-fork.svg)](https://www.npmjs.com/package/gh-fork) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Forks the specified repositories in a known account.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save gh-fork
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const ghFork = require("gh-fork");
@@ -25,9 +26,10 @@ ghFork("jillix", "jxoss", "your token", function (err, data) {
     console.log(`Failed to fork ${c.source.full_name}. Error: ${err}`);
 });
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `ghFork(selector, where, token, cb)`
 Forks the specified repositories in a known account.
 
@@ -45,14 +47,16 @@ full name is provided, only that specific repository will be matched.
  - `repo-progress` (err, data): Emitted running the request to a repository (if it was a success, the error will be `null`).
  - `done` (err, data): Emitted after all the requests are executed.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
