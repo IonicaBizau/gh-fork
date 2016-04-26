@@ -1,6 +1,6 @@
 {
   "name": "gh-fork",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Forks the specified repositories in a known account.",
   "main": "lib/index.js",
   "scripts": {
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/gh-fork/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/gh-fork#readme"
+  "homepage": "https://github.com/IonicaBizau/gh-fork#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
