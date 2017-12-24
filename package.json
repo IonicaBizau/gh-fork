@@ -1,6 +1,6 @@
 {
   "name": "gh-fork",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Forks the specified repositories in a known account.",
   "main": "lib/index.js",
   "scripts": {
